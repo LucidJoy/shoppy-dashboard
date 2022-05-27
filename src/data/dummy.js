@@ -386,6 +386,8 @@ export const FinancialPrimaryXAxis = {
 
 export const FinancialPrimaryYAxis = {
   title: "Price",
+  lightText: "#fff",
+  darkText: "#33373E",
   minimum: 100,
   maximum: 180,
   interval: 20,

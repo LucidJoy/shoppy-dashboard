@@ -12,12 +12,12 @@ import {
 } from "@syncfusion/ej2-react-schedule";
 
 import { scheduleData } from "../data/dummy";
-import { Header } from "../components";
+import { ChartsHeader } from "../components";
 
 const Calendar = () => {
   return (
     <div className='m-2 md:m-10 mt-24 p-2 md:p-10 bg-white rounded-3xl'>
-      <Header title='Calender' category='App' />
+      <ChartsHeader title='Calender' category='App' />
       <ScheduleComponent
         height={650}
         eventSettings={{ dataSource: scheduleData }}
